@@ -1,0 +1,15 @@
+{
+  "name": "electron_study",
+  "version": "1.0.0",
+  "description": "记录学习electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "fangc",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.0"
+  }
+}
