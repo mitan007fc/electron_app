@@ -14,3 +14,15 @@
 
 **新增** *<u>03安装Electron.md</u>*
 * 介绍第一个Electron程序
+
+**新增** *<u>04Electron架构.md</u>*
+* Chromium：支持最新特性的浏览器
+* Node.js :javascript运行时，可实现文件读写等
+* Native API：提供统一的原生界面能力
+
+**新增** *<u>05Electron工作流程.md</u>*
+1. 启动main.js，为主进程
+2. 在main中可以创建窗口，创建的窗口存在在渲染进程
+3. 渲染进程与进程之间通过CPI进行通讯 
+4. 只有主线程可以调用native API对GUI进行操作
+5. 渲染进程可以通过Chromiu加载各种页面
