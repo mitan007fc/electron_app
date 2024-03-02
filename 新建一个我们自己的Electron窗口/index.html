@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+
+<body>
+    <h1>我们自己的Electron窗口!</h1>
+    <!-- 1. html中编写 
+            1.1 添加当前窗口大小状态
+            1.2 添加最大化窗口按钮和还原按钮
+    -->
+    <p>当前窗口大小: <strong id="state">最初状态</strong></p>
+    <button id="btnMax">最大化窗口</button>
+    <button id="btnReduct">还原</button>
+    <!-- 加载js -->
+    <script src="index.js"></script>
+</body>
+</html>
