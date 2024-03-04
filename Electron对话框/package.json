@@ -1,0 +1,17 @@
+{
+  "name": "electron_study",
+  "version": "1.0.0",
+  "description": "新建一个我们自己的窗口",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --watch main.js --exec npm run build",
+    "build": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "fangc",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.0"
+  }
+}

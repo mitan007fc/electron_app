@@ -35,3 +35,6 @@
 
 **2024/3/4**
 **新增** *<u>09Electron的窗口.md</u>*
+**新增** *<u>10Electron中dialog.md</u>*
+**新增** *<u>11Electron中BrowserView.md</u>*
+**新增** *<u>12Electron中Notification.md</u>*
