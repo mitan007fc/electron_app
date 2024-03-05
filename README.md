@@ -39,3 +39,6 @@
 **新增** *<u>11Electron中BrowserView.md</u>*
 **新增** *<u>12Electron中Notification.md</u>*
 **新增** *<u>13Electron中globalShortcut.md</u>*
+
+**2024/3/5**
+**新增** *<u>14Electron中chipboard.md</u>*
