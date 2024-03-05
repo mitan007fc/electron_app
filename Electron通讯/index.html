@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electron的ipc通讯</title>
+</head>
+<body>
+    <h2>渲染进程到主进程（单向）</h2>
+    <div>
+        <button id="btnToMain">渲染进程发送到主进程</button>
+    </div>
+    <div>
+        <input type="text" id="sendText">
+    </div>
+    <br>
+    
+    <script src="./index.js"></script>
+
+    <br>
+    <div>收到主进程发送到渲染进程的消息：</div>
+    <div>
+        <input type="text" id="messageFromMain" style="width: 300px;">
+    </div>
+
+    <br>
+    <div>
+        <button id="btnInvoke">渲染进程invoke主进程</button>
+    </div>
+    <div>
+        <input type="text" id="messageInvokeMain" style="width: 300px;">
+    </div>
+</body>
+</html>

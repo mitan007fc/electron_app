@@ -35,10 +35,12 @@
 
 **2024/3/4**
 **新增** *<u>09Electron的窗口.md</u>*
-**新增** *<u>10Electron中dialog.md</u>*
+**新增** *<u>10Electron中dialog对话框.md</u>*
 **新增** *<u>11Electron中BrowserView.md</u>*
-**新增** *<u>12Electron中Notification.md</u>*
-**新增** *<u>13Electron中globalShortcut.md</u>*
+**新增** *<u>12Electron中Notification通知.md</u>*
+**新增** *<u>13Electron中globalShortcut快捷键.md</u>*
 
 **2024/3/5**
-**新增** *<u>14Electron中chipboard.md</u>*
+**新增** *<u>14Electron中chipboard剪贴板.md</u>*
+**新增** *<u>15Electron中screen屏幕.md</u>*
+**新增** *<u>16Electron中IPC进程间通讯.md</u>*
